@@ -5,6 +5,12 @@ public class User {
 	private Integer id;
 	private String name;
 	private String password;
+	
+	
+	
+	public User() {
+		super();
+	}
 	public Integer getId() {
 		return id;
 	}
